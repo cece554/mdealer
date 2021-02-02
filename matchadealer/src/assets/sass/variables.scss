@@ -1,0 +1,25 @@
+@import "~bulma/sass/utilities/_all";
+body{
+  font-family: 'Roboto Mono';
+}
+$body-background-color: hsl(21,78,37);
+$primary: $turquoise;
+$link: $white;
+$text: $white;
+$background: $orange;
+$family-primary: $family-monospace ;
+$body-family: $family-monospace;
+$family-monospace: 'Roboto Mono';
+$white: #F0EDE6;
+$primary-invert: findColorInvert($primary);
+$colors: (
+    "white": ($white, $black),
+    "black": ($black, $white),
+    "light": ($light, $light-invert),
+    "dark": ($dark, $dark-invert),
+    "primary": ($primary, $primary-invert),
+    "info": ($info, $info-invert),
+    "success": ($success, $success-invert),
+    "warning": ($warning, $warning-invert),
+    "danger": ($danger, $danger-invert),
+);
